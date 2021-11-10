@@ -1,0 +1,77 @@
+$background: rgb(19, 129, 156);
+
+body {
+   background-color: $background;
+   display: flex;
+   justify-content: space-evenly;
+   align-items: center;
+   width: 100vw;
+   height: 100vh;
+   font-size: 24px;
+   overflow: hidden;
+   margin: 0;
+
+   .col-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+
+      #game-container {
+         display: flex;
+         justify-content: center;
+         align-items: center;
+         color: black;
+         padding: 10px;
+   
+         .column {
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            width: 3em;
+   
+            .tile {
+               border: 1px solid black;
+               height: 3em;
+               width: 3em;
+               display: flex;
+               justify-content: center;
+               align-items: center;
+               background-color: yellow;
+   
+               &:not(:first-child) {
+                  border-top: none;
+               }
+   
+               .circle {
+                  width: 2.4em;
+                  height: 2.4em;
+                  border-radius: 50%;
+                  background-color: $background;
+               }
+            }
+         }
+      }
+   
+      #reset-container {
+         margin-top: 1em;
+   
+         button {
+            background-color: rgba(255, 102, 0, 0.8);
+            border-radius: 0.4em;
+            border-color: black;
+            width: 4em;
+            height: 2em;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+            cursor: pointer;
+   
+            &:hover {
+               background-color: rgba(255, 102, 0, 0.5);
+            }
+         }
+      }
+   }
+
+   
+}

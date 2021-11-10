@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Connect 4!</title>
+   <link rel="stylesheet" href="/styles.css">
+   <script defer src="/index.js"></script>
+</head>
+<body>
+   <div class="col-container">
+      <h2 style="color: rgb(201, 25, 25); visibility: hidden;" id="red-text">Red's Move</h2>
+   </div>
+   <div class="col-container">
+      <h1>Connect 4!</h1>
+      <div id="game-container">
+         <div class="column">
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+         </div>
+         <div class="column">
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+         </div>
+         <div class="column">
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+         </div>
+         <div class="column">
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+         </div>
+         <div class="column">
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+         </div>
+         <div class="column">
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+         </div>
+         <div class="column">
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+            <div class="tile">
+               <div class="circle" onclick="changeCircleColor(this)"></div>
+            </div>
+         </div>
+      </div>
+      <div id="reset-container">
+         <button type="button" onclick="resetGame()">Reset</button>
+      </div>
+   </div>
+   <div class="col-container">
+      <h2 style="visibility: hidden;" id="black-text">Black's Move</h2>
+   </div>
+</body>
+</html>

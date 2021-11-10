@@ -1,0 +1,110 @@
+body {
+  background-color: #13819c;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100vw;
+  height: 100vh;
+  font-size: 24px;
+  overflow: hidden;
+  margin: 0;
+}
+
+body .col-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+body .col-container #game-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: black;
+  padding: 10px;
+}
+
+body .col-container #game-container .column {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 3em;
+}
+
+body .col-container #game-container .column .tile {
+  border: 1px solid black;
+  height: 3em;
+  width: 3em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: yellow;
+}
+
+body .col-container #game-container .column .tile:not(:first-child) {
+  border-top: none;
+}
+
+body .col-container #game-container .column .tile .circle {
+  width: 2.4em;
+  height: 2.4em;
+  border-radius: 50%;
+  background-color: #13819c;
+}
+
+body .col-container #reset-container {
+  margin-top: 1em;
+}
+
+body .col-container #reset-container button {
+  background-color: rgba(255, 102, 0, 0.8);
+  border-radius: 0.4em;
+  border-color: black;
+  width: 4em;
+  height: 2em;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+  cursor: pointer;
+}
+
+body .col-container #reset-container button:hover {
+  background-color: rgba(255, 102, 0, 0.5);
+}
+/*# sourceMappingURL=styles.css.map */
